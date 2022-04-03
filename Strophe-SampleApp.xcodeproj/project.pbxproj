@@ -99,6 +99,7 @@
 		B7975CBF27F93DF9004C5041 /* libgit2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libgit2.xcframework; sourceTree = "<group>"; };
 		B7975CC327F93EF2004C5041 /* StropheBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StropheBridge.h; sourceTree = "<group>"; };
 		B7975CC627F93F9D004C5041 /* StropheBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StropheBridge.mm; sourceTree = "<group>"; };
+		B7975CC827F9441B004C5041 /* strophe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = strophe.h; path = libstrophe/strophe.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 		B75A032627F82AD9001CB971 = {
 			isa = PBXGroup;
 			children = (
+				B7975CC827F9441B004C5041 /* strophe.h */,
 				B75A034127F82BD8001CB971 /* src */,
 				B75A033127F82AD9001CB971 /* Strophe-SampleApp */,
 				B75A033027F82AD9001CB971 /* Products */,

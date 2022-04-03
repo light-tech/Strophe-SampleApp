@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button("Run basic example") {
+            let strophe = StropheBridge()
+            strophe.runBasicExample()
+        }
     }
 }
 

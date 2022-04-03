@@ -10,5 +10,6 @@
 @interface StropheBridge : NSObject
 
 - (nonnull instancetype)init;
+- (int)runBasicExample;
 
 @end
